@@ -1,0 +1,233 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    background: rgb(248, 248, 248);
+    font-family: 'Asap Condensed', sans-serif;
+}
+.container{
+    max-width: 1366px;
+    width: 100%;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+/* header */
+
+.header{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: transparent;
+    position: relative;
+    z-index: 1;
+}
+.header__logo{
+    font-size: 30px;
+}
+.header__link{
+    background: rgb(91, 138, 226);
+    padding: 10px 10px;
+    border-radius: 30px;
+}
+.header-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
+}
+.header__logo{
+    color: white;
+}
+.header-all{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.header-links__item{
+    margin-left: 50px;
+    color: white;
+}
+.header-links__item:first-of-type{
+    margin: 0;
+}
+.header-links__number{
+    margin-right: 30px;
+    font-weight: bold;
+    position: relative;
+    color: white;
+}
+.header-links__number::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.header__button{
+    background: rgb(91, 138, 226);
+    border-radius: 20px;
+    border: none;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+}
+
+/* header */
+
+/* hero */
+
+.hero{
+    padding-top: 130px;
+    padding-bottom: 80px;
+    margin-top: -110px;
+    background: url('../img/bag.jpg') no-repeat center / cover;
+    position: relative;
+}
+.hero::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+.hero-content-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+.hero-content-info__title{
+    text-align: center;
+    font-size: 48px;
+    max-width: 780px;
+    color: white;
+}
+.hero-content-info__text{
+    margin-top: 30px;
+    font-size: 24px;
+    /* font-weight: lighter; */
+    z-index: 1;
+    color: white;
+    text-align: center;
+    /* background: rgb(187, 134, 37);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px; */
+}
+.hero-button{
+    margin-top: 20px;
+    background: rgb(91, 138, 226);
+    border: none;
+    font-size: 18px;
+    padding: 10px 35px;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.hero-content-info-double{
+    /* border: 2px solid rgb(91, 138, 226); */
+    padding: 25px 20px;
+    border-radius: 20px;
+}
+/* .hero-image-item__img{
+    width: 100px;
+}
+.hero-image-item{
+    justify-content: center;
+    text-align: center;
+    max-width: 150px;
+    border: 2px solid white;
+    padding: 15px 20px;
+}
+.hero-image{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+    position: relative;
+    z-index: 1;
+}
+.hero-image-item__text{
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+} */
+
+/* hero */
+
+/* pillow */
+
+.pillow{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.pillow-img{
+    width: 400px;
+    border-radius: 20px;
+}
+.pillow-all{
+    display: flex;
+    align-items: center;
+}
+.pillow-content{
+    margin-left: 130px;
+}
+.pillow-content__subtitle{
+    font-size: 25px;
+    margin-bottom: 15px;
+    color: rgb(91, 138, 226);
+    position: relative;
+}
+.pillow-content__subtitle::after{
+    content: '';
+    position: absolute;
+    top: 134px;
+    left: -100px;
+    width: 40px;
+    height: 40px;
+    background: url('../img/right.png') no-repeat center / cover;
+}
+.pillow-content__subtitle::before{
+    content: '';
+    position: absolute;
+    top: 139px;
+    left: -616px;
+    width: 40px;
+    height: 40px;
+    background: url('../img/left.png') no-repeat center / cover;
+}
+.pillow-content-title{
+    margin-bottom: 20px;
+    font-size: 60px;
+    /* border-bottom: 2px solid rgb(91, 138, 226); */
+    padding-bottom: 10px;
+    max-width: 490px;
+    color: rgb(91, 138, 226);
+}
+.pillow-content-text{
+    margin-top: 20px;
+    max-width: 400px;
+    line-height: 28px;
+}
+.button-pillow{
+    margin-top: 50px;
+    padding: 15px 30px;
+    background: none;
+    border-radius: 20px;
+    border: 2px solid rgb(91, 138, 226);
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
