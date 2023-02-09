@@ -429,8 +429,8 @@ a{
 /* promo */
 
 .promo{
-    padding-top: 30px;
-    padding-bottom: 100px;
+    padding-top: 15px;
+    padding-bottom: 80px;
 }
 .promo__title{
     font-size: 38px;
@@ -449,7 +449,7 @@ a{
 }
 .promo-content{
     display: flex;
-    margin-top: 70px;
+    margin-top: 30px;
 }
 .promo-content-card__img{
     width: 150px;
@@ -477,3 +477,283 @@ a{
 }
 
 /* promo */
+
+/* curtains */
+
+.curtains{
+    padding-top: 130px;
+    padding-bottom: 50px;
+}
+.curtains-content{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+.curtains-content__title{
+    max-width: 500px;
+    font-size: 48px;
+    color: rgb(91, 138, 226);
+    margin-bottom: 30px;
+}
+.curtains-content__text{
+    font-size: 16px;
+    max-width: 320px;
+    margin-bottom: 30px;
+    line-height: 25px;
+}
+.curtains-content__desc{
+    margin-bottom: 30px;
+    max-width: 320px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.curtains-content__button{
+    max-width: 180px;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 20px;
+    background: rgb(91, 138, 226);
+    color: white;
+    transition: all .3s;
+}
+.curtains-content__button:hover{
+    background: rgb(214, 213, 213);
+    color: rgb(91, 138, 226);
+}
+.curtains-all{
+    display: flex;
+    justify-content: space-evenly;
+}
+.curtains__img{
+    height: 600px;
+    margin-top: -80px;
+    width: 900px;
+}
+/* curtains */
+
+/* invent */
+
+.invent{
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+.invent-one{
+    display: flex;
+    margin-left: 38px;
+}
+.container--invent{
+    max-width: 1900px;
+    width: 100%;
+}
+.invent-one-first{
+    background: url('../img/prin.jpg') no-repeat center / cover;
+    height: 500px;
+    width: 900px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 300px;
+    box-shadow: 2px 5px 9px 3px rgba(66, 65, 65, 0.7);
+}
+.invent-one-first::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 900px;
+    height: 500px;
+    background: rgba(0, 0, 0, 0.5);
+}
+.invent-one-first__title{
+    text-align: center;
+    max-width: 400px;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 20px;
+}
+.invent-one-first__button{
+    position: relative;
+    z-index: 1;
+    padding: 10px 25px; 
+    background: none;
+    border: 3px solid rgb(91, 138, 226);
+    color: white;
+    transition: all .3s;
+}
+.invent-one-first__button:hover{
+    background: rgb(91, 138, 226);
+}
+.invent-one-second{
+    background: url('../img/pod.jpg') no-repeat center / cover;
+    height: 500px;
+    width: 900px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 340px;
+    box-shadow: 2px 5px 9px 3px rgba(66, 65, 65, 0.7);
+    margin-left: 30px;
+}
+.invent-one-second::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 900px;
+    height: 500px;
+    background: rgba(0, 0, 0, 0.3);
+}
+.invent-one-second__title{
+    text-align: center;
+    max-width: 400px;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 20px;
+}
+.invent-one-second__button{
+    position: relative;
+    z-index: 1;
+    padding: 10px 25px; 
+    background: none;
+    border: 3px solid rgb(91, 138, 226);
+    color: white;
+    transition: all .3s;
+}
+.invent-one-second__button:hover{
+    background: rgb(91, 138, 226);
+}
+.invent-two{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 12px;
+    margin-top: 25px;
+}
+.invent-two-first{
+    background: url('../img/prin.jpg') no-repeat center / cover;
+    height: 500px;
+    width: 600px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 300px;
+    box-shadow: 2px 5px 9px 3px rgba(66, 65, 65, 0.7);
+}
+.invent-two-first::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 600px;
+    height: 500px;
+    background: rgba(0, 0, 0, 0.5);
+}
+.invent-two-first__title{
+    text-align: center;
+    max-width: 400px;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 20px;
+}
+.invent-two-first__button{
+    position: relative;
+    z-index: 1;
+    padding: 10px 25px; 
+    background: none;
+    border: 3px solid rgb(91, 138, 226);
+    color: white;
+    transition: all .3s;
+}
+.invent-two-first__button:hover{
+    background: rgb(91, 138, 226);
+}
+.invent-two-second{
+    background: url('../img/pock.jpg') no-repeat center / cover;
+    height: 500px;
+    width: 600px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 300px;
+    box-shadow: 2px 5px 9px 3px rgba(66, 65, 65, 0.7);
+}
+.invent-two-second::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 600px;
+    height: 500px;
+    background: rgba(0, 0, 0, 0.5);
+}
+.invent-two-second__title{
+    text-align: center;
+    max-width: 400px;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 20px;
+}
+.invent-two-second__button{
+    position: relative;
+    z-index: 1;
+    padding: 10px 25px; 
+    background: none;
+    border: 3px solid rgb(91, 138, 226);
+    color: white;
+    transition: all .3s;
+}
+.invent-two-second__button:hover{
+    background: rgb(91, 138, 226);
+}
+.invent-two-third{
+    background: url('../img/poloten.jpg') no-repeat center / cover;
+    height: 500px;
+    width: 600px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 300px;
+    box-shadow: 2px 5px 9px 3px rgba(66, 65, 65, 0.7);
+}
+.invent-two-third::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 600px;
+    height: 500px;
+    background: rgba(0, 0, 0, 0.2);
+}
+.invent-two-third__title{
+    text-align: center;
+    max-width: 400px;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 20px;
+}
+.invent-two-third__button{
+    position: relative;
+    z-index: 1;
+    padding: 10px 25px; 
+    background: none;
+    border: 3px solid rgb(91, 138, 226);
+    color: white;
+    transition: all .3s;
+}
+.invent-two-third__button:hover{
+    background: rgb(91, 138, 226);
+}
